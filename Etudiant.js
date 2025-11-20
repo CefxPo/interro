@@ -1,0 +1,16 @@
+class Etudiant {
+    nom 
+    age 
+    section
+    constructor(nom,age,section){
+        this.nom = nom
+        this.age = age
+        this.section = section
+    }
+    description(){
+        return`${this.nom} (${this.age}) - Section : ${this.section}`
+    }
+}
+
+
+export default Etudiant; 
